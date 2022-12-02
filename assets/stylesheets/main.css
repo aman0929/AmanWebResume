@@ -1,0 +1,50 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    --bs-body-font-weight: 300;
+    --bs-body-bg: var(--bs-dark);
+    --bs-primary: #1c3dca;
+    --bs-primary-rgb: 28,61,202;
+    --bs-info: #02aaff;
+    --bs-info-rgb: 2,170,255;
+    --bs-dark: #131416;
+    --bs-dark-rgb: 19,20,22;
+    --bs-body-color: var(--bs-white);
+  }
+  
+  .container {
+    height: 100%;
+    max-width: 740px;
+  }
+
+  .background-img {
+    height: 600px;
+    background-image: url(../../Images/Aman-Profile.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    
+  }
+
+  .text-badge {
+    margin: .1em .49em;
+    background: var(--bs-dark);
+  }
+  
+  .banner {
+    padding: 2em 1em;
+    background: var(--bs-primary);
+    border-radius: 1em;
+  }
+  
+  .projects {
+    --bs-gutter-y: 1rem;
+  }
+  
+  .rights {
+    font-size: 10px;
+  }
+  
+  .card {
+    background: var(--bs-info);
+  }
